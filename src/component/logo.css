@@ -1,0 +1,84 @@
+ .main_cards{
+   height: 70%;
+   width: 60%;
+   border-radius: 10px;
+   box-shadow: 0 0 40px #b31212;
+   background-size: 100% 100%; 
+   padding: 1rem 2rem;
+   color: white;
+   font-family: 'Oswald', sans-serif;
+
+}
+.logoDiv{
+   height: 50%;
+   width: 50%;
+   /* border: 2px solid red; */
+   display: flex;
+}
+.logoContainDiv{
+   height: 100%;
+   width: 60%;
+   /* border: 2px solid yellow; */
+   padding: 1rem 2rem;
+}
+
+.containtDiv{
+   height: 45%;
+   width: 40%;
+   /* border: 2px solid red; */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+
+@media only screen and (max-width:1024px){
+   .main_cards{
+      width: 80%;
+      
+   }
+   .logoDiv{
+      width: 100%;
+   }
+   .logoContainDiv{
+      height: 50%;
+   }
+   .containtDiv{
+      width: 40%;
+      height: 50%;
+   }
+}
+
+@media only screen and (max-width:768px){
+   .main_cards{
+      width: 80%;
+      
+   }
+   .logoDiv{
+      width: 100%;
+   }
+   .logoContainDiv{
+      height: 50%;
+   }
+   .containtDiv{
+      width: 50%;
+      height: 50%;
+   }
+}
+
+@media only screen and (max-width:500px){
+   .main_cards{
+      width: 100%;
+      
+   }
+   .logoDiv{
+      width: 100%;
+   }
+   .logoContainDiv{
+      height: 50%;
+   }
+   .containtDiv{
+      width: 100%;
+      height: 50%;
+   }
+}
